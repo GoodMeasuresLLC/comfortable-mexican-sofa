@@ -21,6 +21,7 @@ class Comfy::Cms::ContentController < Comfy::Cms::BaseController
       respond_to do |format|
         format.html { render_page }
         format.json { render :json => @cms_page }
+        format.any { head :not_found }
       end
     end
   end
