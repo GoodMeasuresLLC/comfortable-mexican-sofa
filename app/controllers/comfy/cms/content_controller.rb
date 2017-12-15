@@ -64,6 +64,7 @@ protected
 
     respond_to do |format|
       format.html { render_page(404) }
+      format.any { head :not_found }
     end
   rescue ActiveRecord::RecordNotFound
     raise ActionController::RoutingError.new("Page Not Found at: \"#{params[:cms_path]}\"")
