@@ -6,7 +6,7 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/comfy/comfortable-mexican-sofa.svg?style=flat)](https://codeclimate.com/github/comfy/comfortable-mexican-sofa)
 [![Coverage Status](https://img.shields.io/coveralls/comfy/comfortable-mexican-sofa.svg?style=flat)](https://coveralls.io/r/comfy/comfortable-mexican-sofa?branch=master)
 
-ComfortableMexicanSofa is a powerful Rails 4/5 CMS Engine
+ComfortableMexicanSofa is a powerful, hard to upgrade, Rails 4/5 CMS Engine
 
 ## Features
 
